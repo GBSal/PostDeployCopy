@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DeployScripts", "DeployScripts\DeployScripts.sqlproj", "{E22CDC86-A04E-4422-B002-FD81FA64DC14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{399278C6-D1E9-47A8-877C-29A9FDA4C908}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DeployScripts.UnitTests", "DeployScripts.UnitTests\DeployScripts.UnitTests.sqlproj", "{D99C0E1E-B5C2-4989-A6A2-CAB7C6A71F05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E22CDC86-A04E-4422-B002-FD81FA64DC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22CDC86-A04E-4422-B002-FD81FA64DC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22CDC86-A04E-4422-B002-FD81FA64DC14}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E22CDC86-A04E-4422-B002-FD81FA64DC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22CDC86-A04E-4422-B002-FD81FA64DC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22CDC86-A04E-4422-B002-FD81FA64DC14}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D99C0E1E-B5C2-4989-A6A2-CAB7C6A71F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99C0E1E-B5C2-4989-A6A2-CAB7C6A71F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99C0E1E-B5C2-4989-A6A2-CAB7C6A71F05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D99C0E1E-B5C2-4989-A6A2-CAB7C6A71F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99C0E1E-B5C2-4989-A6A2-CAB7C6A71F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99C0E1E-B5C2-4989-A6A2-CAB7C6A71F05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D99C0E1E-B5C2-4989-A6A2-CAB7C6A71F05} = {399278C6-D1E9-47A8-877C-29A9FDA4C908}
+	EndGlobalSection
+EndGlobal
